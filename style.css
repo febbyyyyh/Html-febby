@@ -1,0 +1,84 @@
+.about-content {
+  display: flex;
+}
+
+.about-content > div {
+  flex: 1;
+}
+
+.about-content > div:last-child {
+  flex: 0 0 auto;
+  margin-left: 20px;
+}
+
+.about-content img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+/* css gallery page */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .gallery-item {
+    flex-basis: calc(33.333% - 10px);
+    height: 0;
+    padding-bottom: 42.86%; /* 4/3 aspect ratio */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* css page blog */
+.blog-image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    height: auto;
+  }
+
+/* css page contact */
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.social-icons .social-item {
+  display: flex; /* Use flexbox to arrange icon and text horizontally */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 1rem; /* Adjust margin between each social item */
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.social-icons .social-item p {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 2;
+}
