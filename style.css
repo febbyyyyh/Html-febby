@@ -1,3 +1,79 @@
+/* Menggunakan font Inter */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Styling for header */
+header {
+  font-family: 'Inter', sans-serif; /* Gunakan font Inter untuk header */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Mengatur jarak antara logo dan navbar */
+  background-color: #FFDFDF; /* Warna latar belakang header */
+  padding: 10px; /* Padding header */
+  margin: 0; /* Tambahkan margin */
+}
+
+body, html {
+  margin: 0; /* Hilangkan margin */
+  padding: 0; /* Hilangkan padding */
+  width: 100%; /* Atur lebar 100% */
+  height: 100%; /* Atur tinggi 100% */
+  overflow-x: hidden; /* Sembunyikan overflow horizontal */
+}
+
+/* style navbar mulai dari sini */
+/* Styling for header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Mengatur jarak antara logo dan navbar */
+  background-color: #FFDFDF; /* Warna latar belakang header */
+  padding: 10px; /* Padding header */
+  margin: 0; /* Tambahkan margin */
+}
+
+/* Styling for logo */
+header h1 img {
+  width: 120px; /* Atur lebar gambar */
+  height: auto; /* Biarkan tinggi gambar disesuaikan secara otomatis */
+  margin-right: 80px; /* Berikan jarak antara gambar dengan teks */
+  margin-left: 80px; /* Tambahkan margin kiri */
+}
+
+/* Styling for navigation */
+nav ul {
+  list-style: none; /* Menghapus bullet list */
+  display: flex; /* Menampilkan menu secara horizontal */
+  margin-right: 80px; /* Tambahkan margin */
+}
+
+nav ul li {
+  margin-left: 80px; /* Sesuaikan jarak antara setiap item menu */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Menghilangkan margin kiri untuk item pertama */
+}
+
+nav ul li a {
+  text-decoration: none;
+  /*Menghapusdekorasitautan*/color: #000000;
+  /*Warnateksmenu*/transition: color 0.5s ease;
+   /* Efek transisi warna saat dihover */;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #D83F7D; /* Warna teks menu saat dihover */
+}
+/* style navbar sampe sini */
+
+
+/* atur css mulai dari sini */
 .about-content {
   display: flex;
 }
@@ -81,4 +157,164 @@
   padding-left: 10px;
   font-size: 14px;
   line-height: 2;
+}
+
+/* style for section1 mulai dari sini */
+.about-text {
+  max-width: 600px; /* Atur lebar maksimum teks */
+}
+
+/* Styling for section */
+section#about {
+  background: linear-gradient(to bottom, #FFDFDF, #F875AA); /* Gradient dari atas (#FFDFDF) ke bawah (#F875AA) */
+  padding: 80px 100px; /* Atur padding atas dan bawah, serta margin kiri dan kanan */
+  color: #fff; /* Warna teks */
+}
+
+/* Styling for section heading */
+section#about h2 {
+  text-align: center; /* Pusatkan teks */
+  margin-bottom: 30px; /* Berikan jarak bawah */
+}
+
+/* Styling for about content */
+section#about .about-content p:first-child {
+  font-size: 30px; /* Ukuran font lebih besar */
+  color: #e9508d; /* Warna teks */
+  font-weight: bold; /* Membuat teks menjadi bold */
+  margin-bottom: 20px; /* Tambahkan jarak bawah */
+}
+
+/* Styling for about content */
+section#about .about-content p:nth-child(2) {
+  font-size: 18px; /* Ukuran font lebih besar */
+  color: rgb(0, 0, 0); /* Mengubah warna teks menjadi putih */
+}
+
+/* Styling for about content */
+section#about .about-content img {
+  max-width: 100%; /* Atur lebar maksimum gambar */
+  height: 80px; /* Biarkan tinggi gambar disesuaikan secara otomatis */
+  margin-bottom: 80px; /* Tambahkan jarak bawah */
+}
+/* style css for section1 abis disini */
+
+/* Styling for section gallery */
+section#gallery {
+  text-align: center; /* Pusatkan teks */
+  color: #fff; /* Warna teks putih */
+}
+
+/* Styling for gallery heading */
+section#gallery h2 {
+  font-size: 30px; /*Atur ukuran font*/
+  margin-bottom: 30px; /* Berikan jarak bawah */
+}
+
+/* Styling for section gallery background */
+section#gallery {
+  background-color: #F875AA; /* Warna latar belakang */
+  padding: 100px 80px; /* Atur padding atas dan bawah */
+}
+/* Styling for gallery items */
+.gallery-item {
+  margin-bottom: 40px; /* Jarak antara setiap item */
+}
+
+/* CSS untuk galeri */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px; /* Menambahkan jarak antara item-item galeri */
+}
+
+.gallery-item {
+  flex-basis: calc(33.333% - 20px); /* Lebar item galeri dengan jarak */
+  height: 0;
+  padding-bottom: 42.86%; /* Rasio aspek 4:3 */
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* style css for blog mulai dari sini */
+#blog {
+  background: linear-gradient(to bottom, #F875AA, #FFDFDF); /* Gradient dari atas (#F875AA) ke bawah (#FFDFDF) */
+  padding: 80px 80px; /* Atur padding atas dan bawah */
+  color: #fff; /* Warna teks */
+}
+
+#blog h2 {
+  text-align: center; /* Teks di pusat */
+  font-size: 32px; /* Ukuran font lebih besar */
+  margin-bottom: 40px; /* Jarak bawah */
+}
+
+#blog h3 {
+  color: black; /* Ubah warna teks menjadi hitam */
+  font-family: 'Inter', sans-serif; /* Gunakan font Inter */
+  text-decoration: none; /* Hapus garis bawah */
+}
+
+#blog p {
+  color: #000000; /* Mengubah warna teks menjadi #FFDFDF */
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Membuat tiga kolom dengan lebar yang sama */
+  gap: 20px; /* Jarak antara item */
+}
+
+.blog-item {
+  width: 100%; /* Lebar maksimum masing-masing item */
+}
+/* style css for blog sampe sini */
+
+/* style css for contact me mulai dari sini */
+section#contact {
+  background-color: #FFDFDF; /* Warna latar belakang */
+  padding: 80px 100px; /* Atur padding atas dan bawah, serta margin kiri dan kanan */
+  color: #000000; /* Warna teks putih */
+}
+
+/* Styling for section heading */
+section#contact h2 {
+  text-align: center; /* Pusatkan teks */
+  margin-bottom: 30px; /* Berikan jarak bawah */
+  font-size: 32px; /* Ukuran font */
+}
+
+/* Styling for contact content */
+section#contact p {
+  font-size: 16px; /* Ukuran font */
+  margin-bottom: 20px; /* Berikan jarak bawah */
+}
+
+/* Styling for social icons */
+.social-icons {
+  display: flex; /* Tampilkan ikon sosial secara horizontal */
+  justify-content: center; /* Pusatkan ikon sosial */
+}
+
+/* Styling for each social item */
+.social-item {
+  margin-right: 20px; /* Berikan jarak kanan */
+}
+
+/* Styling for social item text */
+.social-item p {
+  font-size: 20px; /* Ukuran font */
+  margin-top: 10px; /* Berikan jarak atas */
+  color: #000000; /* Warna teks hitam */
+  text-decoration: none; /* Hapus garis bawah */
 }
