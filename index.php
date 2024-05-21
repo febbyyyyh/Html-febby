@@ -51,53 +51,11 @@
           </section>
 
           <!-- SECTION BLOG -->
-          <section id="blog">
+        <section id="blog">
             <h2>Blog</h2>
-            <div class="blog-container">
-              <div class="blog-item">
-                <article class="blog-post">
-                  <header>
-                    <a href="https://tcrn.ch/3IPrtR0" target="_blank" rel="noopener noreferrer">
-                      <h3>Why is AI so bad at spelling? Because image generators aren’t actually reading text</h3>
-                    </a>
-                    <p class="post-meta">March 22, 2024</p>
-                  </header>
-                  <a href="https://tcrn.ch/3IPrtR0" target="_blank" rel="noopener noreferrer">
-                    <div class="blog-image" style="background-image: url(assets/blog1.png);"></div>
-                  </a>
-                  <p>The article notes AI's success in tests and coding but its struggle with spelling, evident in failures in spelling bees and generating gibberish in text-to-image tasks. Despite efforts, experts foresee ongoing challenges in teaching AI language rules.</p>
-                </article>
-              </div>
-              <div class="blog-item">
-                <article class="blog-post">
-                  <header>
-                    <a href="https://tcrn.ch/4aifkzM" target="_blank" rel="noopener noreferrer">
-                      <h3>LinkedIn plans to add gaming to its platform</h3>
-                    </a>
-                    <p class="post-meta">March 17, 2024</p>
-                  </header>
-                  <a href="https://tcrn.ch/4aifkzM" target="_blank" rel="noopener noreferrer">
-                    <div class="blog-image" style="background-image: url(assets/blog2.png);"></div>
-                  </a>
-                  <p>LinkedIn, owned by Microsoft, is expanding into gaming to boost user engagement. It's developing puzzle-based games like "Queens" and "Inference" to capitalize on the popularity of casual gaming. Scores may be organized by workplace, fostering competition among companies.</p>
-                </article>
-              </div>
-              <div class="blog-item">
-                <article class="blog-post">
-                  <header>
-                    <a href="https://tcrn.ch/4cnbGX1" target="_blank" rel="noopener noreferrer">
-                      <h3>Microsoft really wants to talk about Copilot</h3>
-                    </a>
-                    <p class="post-meta">March 22, 2024</p>
-                  </header>
-                  <a href="https://tcrn.ch/4cnbGX1" target="_blank" rel="noopener noreferrer">
-                    <div class="blog-image" style="background-image: url(assets/blog3.png);"></div>
-                  </a>
-                  <p>Microsoft unveiled two new Surface devices and a range of accessories during a virtual event today, with a focus on deeper integration of its AI Copilot into Windows. While predominantly a hardware event, Microsoft underscored Copilot's importance across all its product offerings.</p>
-                </article>
-              </div>
-            </div>
-          </section>
+            <?php include 'blog.php'; ?>
+        </section>
+
         
           <!-- SECTION CONTACT ME -->
           <section id="contact">

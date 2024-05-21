@@ -1,6 +1,4 @@
 /* Menggunakan font Inter */
-
-
 body {
   font-family: 'Inter', sans-serif;
   background-color: #F875AA;
@@ -47,17 +45,6 @@ body, html {
   width: 100%; /* Atur lebar 100% */
   height: 100%; /* Atur tinggi 100% */
   overflow-x: hidden; /* Sembunyikan overflow horizontal */
-}
-
-/* style navbar mulai dari sini */
-/* Styling for header */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Mengatur jarak antara logo dan navbar */
-  background-color: #FFDFDF; /* Warna latar belakang header */
-  padding: 10px; /* Padding header */
-  margin: 0; /* Tambahkan margin */
 }
 
 /* Styling for logo */
